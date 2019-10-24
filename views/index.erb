@@ -2,7 +2,7 @@
 
 <a href="/new">List A Puppy</a>
 <ol>
-  <% @all.each do |pup| %>
+  <% @@all.each do |pup| %>
   <li><a href="/puppy" <%= pup.name %></a></li>
   <% end %>
 </ol>
