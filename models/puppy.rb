@@ -6,7 +6,6 @@ class Puppy
     @name = name
     @breed= breed 
     @months_old = months_old
-    @@all << self
   end
   
 end
